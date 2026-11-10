@@ -1,0 +1,103 @@
+{
+  "baseline_steps": [
+    {
+      "step": 52,
+      "seconds": 118.68810784199741,
+      "tokens": 47437,
+      "kl": 0.15591265261173248,
+      "ntp": 1.6297801733016968,
+      "peak_allocated": 17451708416,
+      "peak_reserved": 18073255936
+    },
+    {
+      "step": 53,
+      "seconds": 118.3425560540054,
+      "tokens": 53816,
+      "kl": 0.14395873248577118,
+      "ntp": 1.3531761169433594,
+      "peak_allocated": 17491817472,
+      "peak_reserved": 18073255936
+    },
+    {
+      "step": 54,
+      "seconds": 118.49381991502014,
+      "tokens": 38439,
+      "kl": 0.1833937019109726,
+      "ntp": 1.6841652393341064,
+      "peak_allocated": 17491817472,
+      "peak_reserved": 18073255936
+    },
+    {
+      "step": 55,
+      "seconds": 118.13628346301266,
+      "tokens": 36667,
+      "kl": 0.17770783603191376,
+      "ntp": 1.6623107194900513,
+      "peak_allocated": 17491817472,
+      "peak_reserved": 18073255936
+    },
+    {
+      "step": 56,
+      "seconds": 118.39779888000339,
+      "tokens": 34852,
+      "kl": 0.17670318484306335,
+      "ntp": 1.798879861831665,
+      "peak_allocated": 17491817472,
+      "peak_reserved": 18073255936
+    }
+  ],
+  "fast_steps": [
+    {
+      "step": 52,
+      "seconds": 33.56095246699988,
+      "tokens": 47437,
+      "kl": 0.162887305021286,
+      "ntp": 1.6514614820480347,
+      "peak_allocated": 22815685632,
+      "peak_reserved": 24373100544
+    },
+    {
+      "step": 53,
+      "seconds": 38.14411635600845,
+      "tokens": 53816,
+      "kl": 0.14576411247253418,
+      "ntp": 1.3704081773757935,
+      "peak_allocated": 22686432256,
+      "peak_reserved": 24375197696
+    },
+    {
+      "step": 54,
+      "seconds": 30.00636796600884,
+      "tokens": 38439,
+      "kl": 0.1814754605293274,
+      "ntp": 1.6770819425582886,
+      "peak_allocated": 22693691392,
+      "peak_reserved": 24375197696
+    },
+    {
+      "step": 55,
+      "seconds": 29.521297861996572,
+      "tokens": 36667,
+      "kl": 0.17645075917243958,
+      "ntp": 1.6513640880584717,
+      "peak_allocated": 22639540736,
+      "peak_reserved": 24375197696
+    },
+    {
+      "step": 56,
+      "seconds": 27.24472083701403,
+      "tokens": 34852,
+      "kl": 0.18118515610694885,
+      "ntp": 1.7920817136764526,
+      "peak_allocated": 22172041728,
+      "peak_reserved": 24375197696
+    }
+  ],
+  "speedup": 3.7359166597596354,
+  "baseline_mean_s": 118.4117132308078,
+  "fast_mean_s": 31.695491097605554,
+  "effective_tokens": 211211,
+  "global_batch": 64,
+  "checkpoint": 50,
+  "limitations": "BF16 operation grouping and padding-observer behavior change; this is not a claim of bit-identical training or final benchmark accuracy."
+}

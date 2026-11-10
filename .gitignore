@@ -1,0 +1,17 @@
+# Local directories or symlinks; never commit runtime artifacts
+/.venv
+/.venv-eval
+/.venv-hf
+/disaggregated-quantization-main
+/data
+/deps
+/cache
+/checkpoints*
+/logs
+/results
+__pycache__/
+*.py[cod]
+*.safetensors
+*.pt
+*.pth
+*.bin

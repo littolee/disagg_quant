@@ -1,0 +1,20 @@
+{
+  "start": "fresh original model, optimizer and step 0",
+  "old_checkpoint": "/home/litto/work/disagg_quant/checkpoints-fast/spark-qwen06-nvfp4-99914b93/state/step_0000200",
+  "checkpoint_dir": "checkpoints-memory",
+  "global_batch": 64,
+  "train_tokens": 100000000,
+  "formats": [
+    "nvfp4",
+    "nvfp4pdshared",
+    "nvfp4a16"
+  ],
+  "changes": [
+    "right-padding trimming",
+    "supervised loss compaction",
+    "no gradient checkpointing",
+    "BF16 STE view cache",
+    "loss chunk size 1024"
+  ],
+  "note": "Quantization observer behavior and floating point reductions differ; final accuracy must be evaluated."
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-04 18:07:57",
+  "speedup": 1.2521045523110386,
+  "change": "Retain full supervised logits; reuse teacher logits for NTP metric",
+  "checkpoint": "latest complete nvfp4pdshared state in checkpoints-memory",
+  "validation": {
+    "original_loss": 0.4102773666381836,
+    "candidate_loss": 0.4102773666381836,
+    "input_grad_relative_l2": 0.0,
+    "weight_grad_relative_l2": 0.0,
+    "student_ce_absolute_difference": 0.0,
+    "shape": [
+      128,
+      1024,
+      151936
+    ]
+  }
+}

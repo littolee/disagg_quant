@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/home/litto/work/disagg_quant/checkpoints-fast/spark-qwen06-nvfp4-99914b93/state/step_0000050",
+  "start_step": 51,
+  "train_tokens": 100000000,
+  "global_batch": 64,
+  "changes": [
+    "trim right padding per microbatch",
+    "compact supervised positions before vocabulary projection",
+    "disable activation checkpointing"
+  ],
+  "caveat": "Numerically different continuation; long-run accuracy must be measured."
+}

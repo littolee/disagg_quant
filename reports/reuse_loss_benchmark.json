@@ -1,0 +1,79 @@
+{
+  "0": {
+    "steps": [
+      {
+        "step": 652,
+        "seconds": 26.56940228800522,
+        "tokens": 37118,
+        "kl": 0.074091836810112,
+        "ntp": 1.7220290899276733,
+        "peak_allocated": 30293244416,
+        "peak_reserved": 62040047616
+      },
+      {
+        "step": 653,
+        "seconds": 27.971423533017514,
+        "tokens": 41219,
+        "kl": 0.0722506195306778,
+        "ntp": 1.5705642700195312,
+        "peak_allocated": 30204004352,
+        "peak_reserved": 62040047616
+      },
+      {
+        "step": 654,
+        "seconds": 28.400483375007752,
+        "tokens": 40197,
+        "kl": 0.08157641440629959,
+        "ntp": 1.7692949771881104,
+        "peak_allocated": 30835139584,
+        "peak_reserved": 71351402496
+      }
+    ],
+    "mean_seconds": 27.647103065343497
+  },
+  "1": {
+    "steps": [
+      {
+        "step": 652,
+        "seconds": 21.090098082000623,
+        "tokens": 37118,
+        "kl": 0.0742192342877388,
+        "ntp": 1.7288391590118408,
+        "peak_allocated": 26368901120,
+        "peak_reserved": 41458597888
+      },
+      {
+        "step": 653,
+        "seconds": 22.4800035530061,
+        "tokens": 41219,
+        "kl": 0.0664166659116745,
+        "ntp": 1.562084436416626,
+        "peak_allocated": 26305427968,
+        "peak_reserved": 41458597888
+      },
+      {
+        "step": 654,
+        "seconds": 22.671418726007687,
+        "tokens": 40197,
+        "kl": 0.0835753008723259,
+        "ntp": 1.772876262664795,
+        "peak_allocated": 26723639296,
+        "peak_reserved": 46114275328
+      }
+    ],
+    "mean_seconds": 22.080506787004804
+  },
+  "speedup": 1.2521045523110386,
+  "validation": {
+    "original_loss": 0.4102773666381836,
+    "candidate_loss": 0.4102773666381836,
+    "input_grad_relative_l2": 0.0,
+    "weight_grad_relative_l2": 0.0,
+    "student_ce_absolute_difference": 0.0,
+    "shape": [
+      128,
+      1024,
+      151936
+    ]
+  }
+}
